@@ -35,4 +35,4 @@ TODO:
 * signal
 
 Class diagram
-![Class diagram](https://github.com/ferenckata/CAGEsim/docs_source/simulator_class_diagram.png?raw=true) showing the code organization
+![Class diagram](./docs_source/simulator_class_diagram.png) showing the code organization
