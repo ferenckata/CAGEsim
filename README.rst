@@ -1,0 +1,30 @@
+=======
+CAGEsim
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/cagesim.svg
+        :target: https://pypi.python.org/pypi/cagesim
+
+.. image:: https://img.shields.io/travis/ferenckata/cagesim.svg
+        :target: https://travis-ci.com/ferenckata/cagesim
+
+.. image:: https://readthedocs.org/projects/cagesim/badge/?version=latest
+        :target: https://cagesim.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Simulation code to generate CAGE-like reads with TF binding motifs
+
+
+* Free software: MIT license
+* Documentation: https://cagesim.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
