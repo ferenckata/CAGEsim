@@ -41,12 +41,12 @@ class TopicSelector:
     # TODO: select from topic
     def select_motifs(
             self,
-            motif_list: list(np.ndarray),
+            motif_list: list[np.ndarray],
             num_motifs: int,
             cell_type_matrix: np.ndarray,
             motif_prob: float = 0.1,
             set_seed: bool = True
-        ) -> list(list(str), list(int), list(np.ndarray)):
+        ) -> list[list[str], list[int], list[np.ndarray]]:
         '''Randomly select motifs and their respective locations
         Parameters
         ----------

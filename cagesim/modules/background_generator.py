@@ -13,9 +13,9 @@ class BackgroundSeq:
 
     def __init__(
             self,
-            vocabulary: list(str),
+            vocabulary: list[str],
             l_sequence: int,
-            sequence_prior: list(float),
+            sequence_prior: list[float],
             seed: int = 43) -> None:
         '''Initialize generator
         Parameters

@@ -80,7 +80,7 @@ class InsertMotif:
             random_sequence: str,
             motif: np.ndarray,
             position: int,
-            vocabulary: list(str),
+            vocabulary: list[str],
             set_seed: bool = True) -> str:
         '''Adds a given motif in the sequences
         Parameters

@@ -38,10 +38,10 @@ class MotifSimulator:
     # TODO: define topics first with motifs and assign topics to cell types (another function maybe)
     def generate_motif_archetypes(
             self,
-            motif_dirichlet_prior: tuple(float) = (1,1,1,1),
-            cell_dirichlet_prior: tuple(float) = (1,1,1,1,1,1,1,1),
+            motif_dirichlet_prior: tuple[float] = (1,1,1,1),
+            cell_dirichlet_prior: tuple[float] = (1,1,1,1,1,1,1,1),
             set_seed: bool = True
-        ) -> tuple(list(np.ndarray), np.ndarray):
+        ) -> tuple[list[np.ndarray], np.ndarray]:
         '''Generate motif PFMs
         Parameters
         ----------
