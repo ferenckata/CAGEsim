@@ -34,4 +34,6 @@ TODO:
 * motif combinations
 * signal
 
-![class-diagram](./images/simulator_class_diagram.png) showing the code organization
+Class diagram showing the code organization
+
+.. image:: https://github.com/ferenckata/CAGEsim/images/simulator_class_diagram.png
