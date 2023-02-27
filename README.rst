@@ -26,5 +26,10 @@ Simulation code to generate CAGE-like reads with TF binding motifs
 Features
 --------
 
-* TODO
+TODO:
+* TF binding motif
+* background sequence
+* motif locations
+* motif combinations
+* signal
 
