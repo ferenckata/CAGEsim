@@ -34,5 +34,4 @@ TODO:
 * motif combinations
 * signal
 
-Class diagram
-![Class diagram](./docs_source/simulator_class_diagram.png) showing the code organization
+[Class diagram](./docs_source/simulator_class_diagram.png) showing the code organization
