@@ -36,4 +36,4 @@ TODO:
 
 Class diagram showing the code organization
 
-.. image:: https://github.com/ferenckata/CAGEsim/images/simulator_class_diagram.png
+.. image:: images/simulator_class_diagram.png
