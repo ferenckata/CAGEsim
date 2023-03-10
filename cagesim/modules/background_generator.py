@@ -37,7 +37,6 @@ class BackgroundSeq:
         self.sequence_prior = sequence_prior
 
 
-    # TODO: add prior to sequence composition, eg GC-content
     def generate_background_seq(
             self,
             n_sequences: int,
@@ -61,6 +60,6 @@ class BackgroundSeq:
 
         for _ in range(n_sequences):
             random_sequence = ''.join(
-                random.choice(self.vocabulary) for _ in range(self.l_sequence)
+                random.choice(self.vocabulary, p=self.sequence_prior) for _ in range(self.l_sequence)
                 )
             yield random_sequence

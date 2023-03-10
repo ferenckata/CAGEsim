@@ -1,0 +1,7 @@
+digraph G{
+"seq_len" [shape=ellipse];
+"p_head" [shape=ellipse];
+"sequence" [shape=ellipse];
+"seq_len" -> "sequence";
+"p_head" -> "sequence";
+}
